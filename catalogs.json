@@ -1,0 +1,121 @@
+[
+  {
+    "Id": 1,
+    "Name": "Creating Digital Images",
+    "ParentId": null,
+    "Children": [
+      {
+        "Id": 2,
+        "Name": "Resources",
+        "ParentId": 1,
+        "Children": [
+          {
+            "Id": 5,
+            "Name": "Primary Sources",
+            "ParentId": 2,
+            "Children": null
+          },
+          {
+            "Id": 6,
+            "Name": "Secondary Sources",
+            "ParentId": 2,
+            "Children": null
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "Name": "Evidence",
+        "ParentId": 1,
+        "Children": null
+      },
+      {
+        "Id": 4,
+        "Name": "Graphic Products",
+        "ParentId": 1,
+        "Children": [
+          {
+            "Id": 7,
+            "Name": "Process",
+            "ParentId": 4,
+            "Children": null
+          },
+          {
+            "Id": 8,
+            "Name": "Final Product",
+            "ParentId": 4,
+            "Children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Resources",
+    "ParentId": 1,
+    "Children": [
+      {
+        "Id": 5,
+        "Name": "Primary Sources",
+        "ParentId": 2,
+        "Children": null
+      },
+      {
+        "Id": 6,
+        "Name": "Secondary Sources",
+        "ParentId": 2,
+        "Children": null
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Evidence",
+    "ParentId": 1,
+    "Children": null
+  },
+  {
+    "Id": 4,
+    "Name": "Graphic Products",
+    "ParentId": 1,
+    "Children": [
+      {
+        "Id": 7,
+        "Name": "Process",
+        "ParentId": 4,
+        "Children": null
+      },
+      {
+        "Id": 8,
+        "Name": "Final Product",
+        "ParentId": 4,
+        "Children": null
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Primary Sources",
+    "ParentId": 2,
+    "Children": null
+  },
+  {
+    "Id": 6,
+    "Name": "Secondary Sources",
+    "ParentId": 2,
+    "Children": null
+  },
+  {
+    "Id": 7,
+    "Name": "Process",
+    "ParentId": 4,
+    "Children": null
+  },
+  {
+    "Id": 8,
+    "Name": "Final Product",
+    "ParentId": 4,
+    "Children": null
+  }
+]

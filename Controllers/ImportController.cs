@@ -22,6 +22,6 @@ public class ImportController : Controller
     {
         await _importService.ExportInJson();
 
-        return Content("Catalog structure successfully exported to \"catalogs.json\ file!");
+        return Content("Catalog structure successfully exported to \"catalogs.json\" file!");
     }
 }
