@@ -1,0 +1,6 @@
+﻿<ul>
+    @foreach (var catalog in Model)
+    {
+        <ul><a href="@Url.Action("Details", new { id = catalog.Id })">@catalog.Name</a></ul>
+    }
+</ul>

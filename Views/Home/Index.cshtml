@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<nav>
+    <ul>
+        <li><a href="@Url.Action("Index", "Catalog")">Get all catalogs</a></li>
+        <li><a href="@Url.Action("Export", "Import")">Save data in file</a></li>
+    </ul>
+</nav>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

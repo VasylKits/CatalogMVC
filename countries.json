@@ -1,0 +1,121 @@
+[
+  {
+    "Id": 1,
+    "Name": "Ukraine",
+    "ParentId": null,
+    "Children": [
+      {
+        "Id": 2,
+        "Name": "Lviv",
+        "ParentId": 1,
+        "Children": [
+          {
+            "Id": 5,
+            "Name": "Sambir",
+            "ParentId": 2,
+            "Children": null
+          },
+          {
+            "Id": 6,
+            "Name": "Stryi",
+            "ParentId": 2,
+            "Children": null
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "Name": "Ternopil",
+        "ParentId": 1,
+        "Children": null
+      },
+      {
+        "Id": 4,
+        "Name": "Kyiv",
+        "ParentId": 1,
+        "Children": [
+          {
+            "Id": 7,
+            "Name": "Bila Tserkva",
+            "ParentId": 4,
+            "Children": null
+          },
+          {
+            "Id": 8,
+            "Name": "Boryspil",
+            "ParentId": 4,
+            "Children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Lviv",
+    "ParentId": 1,
+    "Children": [
+      {
+        "Id": 5,
+        "Name": "Sambir",
+        "ParentId": 2,
+        "Children": null
+      },
+      {
+        "Id": 6,
+        "Name": "Stryi",
+        "ParentId": 2,
+        "Children": null
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Ternopil",
+    "ParentId": 1,
+    "Children": null
+  },
+  {
+    "Id": 4,
+    "Name": "Kyiv",
+    "ParentId": 1,
+    "Children": [
+      {
+        "Id": 7,
+        "Name": "Bila Tserkva",
+        "ParentId": 4,
+        "Children": null
+      },
+      {
+        "Id": 8,
+        "Name": "Boryspil",
+        "ParentId": 4,
+        "Children": null
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Sambir",
+    "ParentId": 2,
+    "Children": null
+  },
+  {
+    "Id": 6,
+    "Name": "Stryi",
+    "ParentId": 2,
+    "Children": null
+  },
+  {
+    "Id": 7,
+    "Name": "Bila Tserkva",
+    "ParentId": 4,
+    "Children": null
+  },
+  {
+    "Id": 8,
+    "Name": "Boryspil",
+    "ParentId": 4,
+    "Children": null
+  }
+]

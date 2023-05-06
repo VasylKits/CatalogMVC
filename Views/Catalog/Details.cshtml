@@ -1,0 +1,17 @@
+﻿@model Catalog
+
+<h1>"Folder" - @Model.Name</h1>
+
+@if (Model.Children.Any())
+{
+    <ul>
+        @foreach (var child in Model.Children)
+        {
+            <ul><a href="@Url.Action("Details", new { id = child.Id })">@child.Name</a></ul>
+        }
+    </ul>
+}
+else
+{
+    <p>No children.</p>
+}

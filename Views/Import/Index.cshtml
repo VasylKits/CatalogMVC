@@ -1,0 +1,21 @@
+﻿@model Catalog
+
+<h2>Import</h2>
+
+@if (TempData.ContainsKey("error"))
+{
+    <div class="alert alert-danger">@TempData["error"]</div>
+}
+
+@if (TempData.ContainsKey("success"))
+{
+    <div class="alert alert-success">@TempData["success"]</div>
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="file">Select a JSON file:</label>
+        <input type="file" name="file" id="file" class="form-control-file" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Import</button>
+</form>
